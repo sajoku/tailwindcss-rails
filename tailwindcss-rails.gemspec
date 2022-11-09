@@ -1,13 +1,13 @@
 require_relative "lib/tailwindcss/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "tailwindcss-rails"
-  spec.version     = Tailwindcss::VERSION
-  spec.authors     = [ "David Heinemeier Hansson" ]
-  spec.email       = "david@loudthinking.com"
-  spec.homepage    = "https://github.com/rails/tailwindcss-rails"
-  spec.summary     = "Integrate Tailwind CSS with the asset pipeline in Rails."
-  spec.license     = "MIT"
+  spec.name = "tailwindcss-rails"
+  spec.version = Tailwindcss::VERSION
+  spec.authors = ["David Heinemeier Hansson"]
+  spec.email = "david@loudthinking.com"
+  spec.homepage = "https://github.com/rails/tailwindcss-rails"
+  spec.summary = "Integrate Tailwind CSS with the asset pipeline in Rails."
+  spec.license = "MIT"
 
   spec.metadata = {
     "homepage_uri" => spec.homepage,
@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.bindir = "exe"
   spec.executables << "tailwindcss"
 
-  spec.add_dependency "railties", ">= 6.0.0"
+  spec.add_dependency "railties", ">= 5.0.0"
 end
